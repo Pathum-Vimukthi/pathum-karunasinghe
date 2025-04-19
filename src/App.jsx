@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
+import { MobileMenu } from "./components/MobileMenu";
 import { Navbar } from "./components/Navbar";
 import "./index.css";
 
@@ -24,7 +25,8 @@ function App() {
         !isLoading ? "opacity-100" : "opacity-0"
       } bg-black text-gray-100`}
     >
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     </div>
   );
 }
