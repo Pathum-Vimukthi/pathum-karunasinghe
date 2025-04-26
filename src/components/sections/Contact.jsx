@@ -9,14 +9,15 @@ export const Contact = () => {
     message: "",
   });
 
-  const SERVICE_ID = "service_6lw69e5";
-  const TEMPLATE_ID = "template_xk0jrwk";
-  const PUBLIC_KEY = "6y_ghyNbFCTWr8o1h";
-
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
+      .sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        e.target,
+        import.meta.env.VITE_PUBLIC_KEY
+      )
       .then((result) => {
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
@@ -25,6 +26,8 @@ export const Contact = () => {
         alert("Oops! Something went wrong. Please try again.");
       });
   };
+
+  console.log(import.meta.env.VITE_SERVICE_ID);
 
   return (
     <section
