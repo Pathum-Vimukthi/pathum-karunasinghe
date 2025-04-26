@@ -3,8 +3,9 @@ import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { MobileMenu } from "./components/MobileMenu";
 import { Navbar } from "./components/Navbar";
-import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
+import { Home } from "./components/sections/Home";
+import { Projects } from "./components/sections/Projects";
 import "./index.css";
 
 function App() {
@@ -29,8 +30,9 @@ function App() {
     >
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Home/>
-      <About/>
+      <Home />
+      <About />
+      <Projects />
     </div>
   );
 }
