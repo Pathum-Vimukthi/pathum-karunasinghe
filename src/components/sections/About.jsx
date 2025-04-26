@@ -15,6 +15,7 @@ export const About = () => {
     "Java",
     "Python",
     "MySQL",
+    "PHP",
   ];
   return (
     <section
@@ -38,7 +39,7 @@ export const About = () => {
                   {frontendSkills.map((skill, index) => (
                     <span
                       key={index}
-                      className="bg-blue-500/10 text-blue-500 rounded-full px-3 py-1 text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition"
+                      className="bg-blue-500/10 text-blue-500 rounded-full px-3 py-1 text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
                     >
                       {skill}
                     </span>
