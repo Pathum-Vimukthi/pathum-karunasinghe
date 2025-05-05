@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 export const LoadingScreen = () => {
   return (
     <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
-      <div className="md-4 text-4xl font-mono font-bold">
+      <div className="md-4 text-2xl md:text-3xl lg:text-4xl font-mono font-bold">
         <Typewriter
           words={["< Pathum Karunasinghe />"]}
           loop="infinitely"
