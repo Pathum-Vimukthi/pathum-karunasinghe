@@ -27,8 +27,9 @@ export const Projects = () => {
                   "React.js",
                   "Node.js",
                   "Express.js",
+                  "Tailwind CSS",
                   "MySQL",
-                  "SequelizeORM",
+                  "Sequelize ORM",
                 ].map((tech, key) => (
                   <span
                     key={key}
@@ -96,6 +97,41 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/Pathum-Vimukthi/KwikMart-E-commerce-PHP-project"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project ➡
+                </a>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">
+                Hotel Management System
+              </h3>
+              <p className="text-gray-400 mb-4">
+                Implemented a Hotel Management System web application for
+                Advanced Database Management module using Node JS, React JS and
+                MySQL.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "React.js",
+                  "Node.js",
+                  "Express.js",
+                  "Tailwind CSS",
+                  "MySQL",
+                  "Sequelize ORM",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 rounded-full px-3 py-1 text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/FOT-Group-Project/Hotel-Booking-Management-System.git"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project ➡
