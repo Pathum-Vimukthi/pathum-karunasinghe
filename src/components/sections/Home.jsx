@@ -1,8 +1,8 @@
 import DownloadIcon from "../../assets/download.png";
 import GitHubIcon from "../../assets/github.png";
 import LinkedInIcon from "../../assets/linkedin.png";
-import MyProfile from "../../assets/Pathum Karunasinghe.jpg";
-import MyResume from "../../assets/W.V.P.V. Karunasinghe_Software Engineer Intern.pdf";
+import MyProfile from "../../assets/Pathum-Karunasinghe.jpeg";
+import MyResume from "../../assets/Pathum Karunasinghe.pdf";
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
@@ -18,7 +18,7 @@ export const Home = () => {
               <figure className="img-box rounded-lg">
                 <img
                   src={MyProfile}
-                  alt="Pathum Karunasinghe.jpg"
+                  alt="Pathum Karunasinghe.jpeg"
                   className="img-cover rounded-full w-75 md:w-100"
                 />
               </figure>
@@ -66,12 +66,7 @@ export const Home = () => {
                 Hi, I'm Pathum Karunasinghe
               </h1>
               <p className="text-gray-400 text-lg mb-8  mx-auto">
-                Passionate full-stack developer and undergraduate at the
-                University of Ruhuna, skilled in React, Spring Boot, Node.js,
-                and Flutter, with a growing interest in DevOps. Experienced in
-                technical roles and leadership through an ICT internship and as
-                a Leo Club Director. Adaptable, quick to learn, and driven to
-                create impactful, innovative solutions.
+                Full-Stack Software Engineer specializing in Java, Spring Boot, React.js, TypeScript, and modern web technologies. Experienced in enterprise software development, API integration, cloud platforms, and containerized applications. With a strong foundation in software engineering principles and Agile development practices, I am committed to building efficient, scalable, and user-focused digital solutions.
               </p>
 
               <div className="flex justify-center space-x-4">
